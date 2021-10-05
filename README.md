@@ -17,7 +17,7 @@ And yes you can Google commands and documentation as needed.
 Good luck!
 
 ### How to run
-If you're on Windows or macOS you'll need [Docker Desktop](https://www.docker.com/products/docker-desktop) installed, on Linux you'll need (Docker)[https://www.docker.com/]. 
+If you're on Windows or macOS you'll need [Docker Desktop](https://www.docker.com/products/docker-desktop) installed, on Linux you'll need [Docker](https://www.docker.com/). 
 
 Start Laravel Sail, a simple command-line interface for interacting with Laravel's default Docker configuration:
 
@@ -32,9 +32,9 @@ The app will re-populate the database with a set of test movies each time the ap
 The database is a simple in memory sqlite database, run the following to create the table and seed it:
 
 > php artisan migrate
-> php artisan db:seed
+php artisan db:seed
 
 Then to check the contents:
 
 > php artisan tinker
-> DB::table('movies')->get();
+DB::table('movies')->get();
