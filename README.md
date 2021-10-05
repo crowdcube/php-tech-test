@@ -31,10 +31,12 @@ The app will re-populate the database with a set of test movies each time the ap
 
 The database is a simple in memory sqlite database, run the following to create the table and seed it:
 
-> php artisan migrate
-php artisan db:seed
+>php artisan migrate
+
+>php artisan db:seed
 
 Then to check the contents:
 
-> php artisan tinker
-DB::table('movies')->get();
+>php artisan tinker
+
+>DB::table('movies')->get();
