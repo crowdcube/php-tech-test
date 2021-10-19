@@ -1,0 +1,30 @@
+[
+    {
+      "httpRequest": {
+        "path": "/blockbusted-movies"
+      },
+      "httpResponse": {
+        "headers": {
+          "Content-Type": [
+            "application/json"
+          ]
+        },
+        "body": {
+          "movies": [
+            {
+              "title": "The Shawshank Redemption",
+              "genre": "Drama",
+              "rating": 8,
+              "releaseYear": 1994
+            },
+            {
+              "title": "Skyfall",
+              "genre": "Action",
+              "rating": 8,
+              "releaseYear": 2012
+            }
+          ]
+        }
+      }
+    }
+  ]
