@@ -1,30 +1,51 @@
-[
-    {
-      "httpRequest": {
-        "path": "/blockbusted-movies"
-      },
-      "httpResponse": {
-        "headers": {
-          "Content-Type": [
-            "application/json"
-          ]
+{
+  "httpRequest": {
+    "path": "/blockbusted-movies"
+  },
+  "httpResponse": {
+    "headers": {
+      "Content-Type": [
+        "application/json"
+      ]
+    },
+    "body": {
+      "movies": [
+        {
+          "title": "The Shawshank Redemption",
+          "genre": "Drama",
+          "rating": 9,
+          "releaseYear": 1994
         },
-        "body": {
-          "movies": [
-            {
-              "title": "The Shawshank Redemption",
-              "genre": "Drama",
-              "rating": 8,
-              "releaseYear": 1994
-            },
-            {
-              "title": "Skyfall",
-              "genre": "Action",
-              "rating": 8,
-              "releaseYear": 2012
-            }
-          ]
+        {
+          "title": "The Dark Knight",
+          "genre": "Drama",
+          "rating": 7,
+          "releaseYear": 2008
+        },
+        {
+          "title": "Skyfall",
+          "genre": "Action",
+          "rating": 8,
+          "releaseYear": 2012
+        },
+        {
+          "title": "No Time To Die",
+          "genre": "Action",
+          "rating": 7,
+          "releaseYear": 2021
+        },
+        {
+          "title": "Free Guy",
+          "genre": "Comedy",
+          "rating": 7,
+          "releaseYear": 9021
+        },
+        {
+          "title": "Joker",
+          "genre": "Drama",
+          "releaseYear": 2019
         }
-      }
+      ]
     }
-  ]
+  }
+}
